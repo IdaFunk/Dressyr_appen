@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">DRESSYR-APPEN</string>
+
+    <string name="volter"><i><b><u>Gör så här:</u></b></i>\n Följ fyrkantspåret, vid A, E, C och B lägg en volt. Denna övning
+        kan göras i alla gångarter. Övningen kan göras lättare och svårare.
+        Lättaste: Skritt och 10 meters volter.
+        Svåraste: galopp och 5 meters volter.
+        \n\n\n
+
+         <i><b><u>Att tänka på:</u></b></i>\n
+        Att volterna ska vara jämna och lika stora, jämnt tempo.
+        \n\n\n
+    </string>
+
+    <string name="attan"><i><b><u>Gör så här:</u></b></i>\n Rid två 2meters volter på varandra, en mellan A - X och nummer två mellan X - C.
+        \n\n\n
+
+         <i><b><u>Att tänka på:</u></b></i>\n
+        Jämnt tempo, jämna och lika stora volter.
+        \n\n\n
+    </string>
+
+    <string name="paronhalvor"> <i><b><u>Gör så här:</u></b></i>\n Rid fyrkantsspåret; <i>vänstervarv: </i> mellan M och B gör en volt-tillbaka (ca. 5 meter).
+        <i>högervarv: </i>mellan H och E gör en volt-tillbaka (ca. 5 meter).
+        Denna övnig kan göras i alla gångarter.
+         \n\n\n
+
+        <i><b><u>Att tänka på:</u></b></i>\n
+        Hålla ett jämt tempo, hålla gångarten genom vändningarna.
+        \n\n\n
+     </string>
+
+    <string name="timglas"> <i><b><u>Gör så här:</u></b></i>\n
+        Följ fyrkantsspåret, mellan M - K och F - H, vänd snett igenom, alt. K-M och  H-F.
+        Denna övnig kan göras i alla gångarter.
+         \n\n\n
+
+         <i><b><u>Att tänka på:</u></b></i>\n
+        Att hålla ett jämt tempo.
+        \n\n\n
+    </string>
+
+    <string name="voltermtvablobbar"><i><b><u>Gör så här:</u></b></i>\n
+        Rid en 15 meters volt, i övre vänstra "hörnet" gör en 5 meters volt utåt, för att
+        sedan komma tillbaka till voltspåret. Gör en likadan 5 meters volt utåt i övre högra "hörnet".
+         \n\n\n
+
+        <i><b><u>Att tänka på:</u></b></i>\n
+        Hålla ett jämnt tempo och rida runda jämna volter. Inte tappa fart i övergången till de små
+        volterna.
+        \n\n\n
+    </string>
+
+</resources>

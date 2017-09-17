@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ida.myapplication.ContactActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips på övningar? Frågor och funderingar?
+Kontakta gärna oss genom formuläret nedan:"
+        android:textColor="@color/colorPrimText"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <TextView
+                android:text="Namn: "
+                android:textColor="@color/colorPrimText"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:layout_marginLeft="15dp"
+                android:layout_width="285dp"
+                android:hint="Namn"
+                android:textSize="20sp"
+                android:background="#aaf2f5ee"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/name"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="E-post: "
+                android:textColor="@color/colorPrimText"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:layout_marginLeft="15dp"
+                android:layout_width="285dp"
+                android:hint="e-post"
+                android:textSize="20sp"
+                android:background="#aaf2f5ee"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/mail"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Ämne: "
+                android:textColor="@color/colorPrimText"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:layout_marginLeft="15dp"
+                android:layout_width="285dp"
+                android:hint="Ämne"
+                android:textSize="20sp"
+                android:background="#aaf2f5ee"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/subject"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Meddelande: "
+                android:textColor="@color/colorPrimText"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:layout_marginLeft="15dp"
+                android:layout_width="285dp"
+                android:hint="meddelande"
+                android:background="#aaf2f5ee"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/message"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skicka"
+        android:layout_gravity="center"
+        android:onClick="sendMessage"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorLightPrimary"/>
+
+</LinearLayout>

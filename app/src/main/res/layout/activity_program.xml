@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.ida.myapplication.ProgramActivity"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Program"
+            android:textColor="@color/colorPrimText"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vilket dressyr program vill du träna på?"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimText"
+            android:layout_marginTop="10dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow android:layout_marginTop="15dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LE:1 2011"
+                    android:id="@+id/le1"
+                    android:onClick="toLE1"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LE:3 2011"
+                    android:id="@+id/le3"
+                    android:onClick="toLE3"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LD:1 2011"
+                    android:id="@+id/ld1"
+                    android:onClick="toLD1"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LD:3 2011"
+                    android:id="@+id/ld3"
+                    android:onClick="toLD3"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LD:4 2011"
+                    android:id="@+id/ld4"
+                    android:onClick="toLD4"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LC:1 2015"
+                    android:id="@+id/lc1"
+                    android:onClick="toLC1"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LC:2 2015"
+                    android:id="@+id/lc2"
+                    android:onClick="toLC2"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LB:1 2015"
+                    android:id="@+id/lb1"
+                    android:onClick="toLB1"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LB:2 2016"
+                    android:id="@+id/lb2"
+                    android:onClick="toB2"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LB:3 2007"
+                    android:id="@+id/lb3"
+                    android:onClick="toLB3"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LA:1 2017"
+                    android:id="@+id/la1"
+                    android:onClick="toLA1"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LA:2 2016"
+                    android:id="@+id/la2"
+                    android:onClick="toLA2"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LA:3 2013"
+                    android:id="@+id/la3"
+                    android:onClick="toLA3"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LA:4 2015"
+                    android:id="@+id/la4"
+                    android:onClick="toLA4"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow android:layout_marginTop="15dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Msv C:1 2011"
+                    android:id="@+id/msvc1"
+                    android:onClick="toMsvC1"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Msv C:2 2010"
+                    android:id="@+id/msvc2"
+                    android:onClick="toMsvC2"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Msv B:1 2003"
+                    android:id="@+id/msvb1"
+                    android:onClick="toMsvB1"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Msv B:2 2006"
+                    android:id="@+id/msvb2"
+                    android:onClick="toMsvB2"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Msv B:3 2008"
+                    android:id="@+id/msvb3"
+                    android:onClick="toMsvB3"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Msv B:4 2003"
+                    android:id="@+id/msvb4"
+                    android:onClick="toMsvB4"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Msv B:5 2017"
+                    android:id="@+id/msvb5"
+                    android:onClick="toMsvB5"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Msv A:1 2016"
+                    android:id="@+id/msva1"
+                    android:onClick="toMsvA1"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+        </TableLayout>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow android:layout_marginTop="15dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FEI Prix St. Georges 2009"
+                    android:id="@+id/stG"
+                    android:onClick="toStG"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FEI:s Intermediare I 2009"
+                    android:id="@+id/inter1"
+                    android:onClick="toInter1"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Intermediare I B 2016"
+                    android:id="@+id/inter1b"
+                    android:onClick="toInter1B"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FEI:s Intermediare A 2014"
+                    android:id="@+id/interA"
+                    android:onClick="toInterA"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FEI:s Intermediare B 2014"
+                    android:id="@+id/interb"
+                    android:onClick="toInterB"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FEI:s Intermediare II 2009"
+                    android:id="@+id/inter2"
+                    android:onClick="toInter2"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FEI:s Grand Prix 2009"
+                    android:id="@+id/gp"
+                    android:onClick="toGP"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FEI:s Grand Prix Special 2009"
+                    android:layout_marginBottom="30dp"
+                    android:id="@+id/GPsp"
+                    android:onClick="toGPsp"
+                    android:background="@color/colorLightPrimary"
+                    android:layout_margin="5dp"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ida.myapplication.MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="För att få insperation till ditt nästa dressyrpass. Välj 'Övningar' så får
+du en slumpad övning att träna på."
+        android:textColor="@color/colorPrimText"
+        android:textSize="17sp"
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Väljer du istället 'Program' så får du upp dressyrprogram att träna på, för
+att få lite variation eller kanske inför en tävling."
+        android:textColor="@color/colorPrimText"
+        android:textSize="17sp"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:id="@+id/exercice"
+        android:text="Slumpa övning"
+        android:onClick="toExer"
+        android:background="@color/colorLightPrimary"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:id="@+id/program"
+        android:text="Till dressyr program"
+        android:onClick="toProgr"
+        android:background="@color/colorLightPrimary"
+        />
+
+</LinearLayout>
